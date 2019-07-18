@@ -1,7 +1,7 @@
-def speak_to_grandma # Write a speak_to_grandma method.
+def speak_to_grandma(phrase) # Write a speak_to_grandma method.
 
-# Whatever you say to grandma, she should respond with
-# HUH?! SPEAK UP, SONNY!
+  if phrase == # Whatever you say to grandma, she should respond with
+puts "HUH?! SPEAK UP, SONNY!"
 # unless you shout it (type in all capitals).
 
 # If you shout, she can hear you (or at least she thinks so) 
@@ -11,3 +11,7 @@ def speak_to_grandma # Write a speak_to_grandma method.
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+else
+  puts 
+    "HUH?! SPEAK UP, SONNY!"
+end
