@@ -1,7 +1,10 @@
 def speak_to_grandma(phrase) # Write a speak_to_grandma method.
 
-  if phrase == # Whatever you say to grandma, she should respond with
-puts "HUH?! SPEAK UP, SONNY!"
+  if phrase == "I LOVE YOU GRANDMA" 
+    puts "I LOVE YOU TOO PUMPKIN"# Whatever you say to grandma, she should respond with
+  elsif phrase == String.capitals
+   puts "NO, NOT SINCE 1938!"
+  
 # unless you shout it (type in all capitals).
 
 # If you shout, she can hear you (or at least she thinks so) 
