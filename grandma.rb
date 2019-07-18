@@ -2,7 +2,7 @@ def speak_to_grandma(phrase) # Write a speak_to_grandma method.
 
   if phrase == "I LOVE YOU GRANDMA" 
     puts "I LOVE YOU TOO PUMPKIN"# Whatever you say to grandma, she should respond with
-  elsif phrase == String.capitals
+  elsif phrase == String.upcase
    puts "NO, NOT SINCE 1938!"
   
 # unless you shout it (type in all capitals).
